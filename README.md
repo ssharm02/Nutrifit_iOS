@@ -6,7 +6,7 @@ For now with the prototype you can enter what the user is eating.  Get the micro
 
 Lots of work to be done over the summer, this is just the beginning! :)  The nutrition and fitness bit is only one part of a bigger application! Expected completion date - December 2018 
 
-Tech Used: Swift 4.1, Google Firebase, Alamofire, SwiftJSON, Charts 
+Tech Used: Swift 4.1, Google Firebase, Alamofire, SwiftyJSON, Charts 
 
 
 <img src="FoodGif.gif?raw=true" width="300px">
