@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>332620255168-s4btpvf9lg85f6hgulq0mtqv70cptr6t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.332620255168-s4btpvf9lg85f6hgulq0mtqv70cptr6t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmmC0T5mtuefeOjvOCPWdWseTd4U59iZk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>332620255168</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sheridan.udemystuff.NutritionAndFitness</string>
+	<key>PROJECT_ID</key>
+	<string>nutritionproject-92ed5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nutritionproject-92ed5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:332620255168:ios:d820d6c920496d08</string>
+	<key>DATABASE_URL</key>
+	<string>https://nutritionproject-92ed5.firebaseio.com/</string>
+</dict>
+</plist>
