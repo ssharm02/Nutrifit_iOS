@@ -29,8 +29,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate
     @IBOutlet weak var foodNameText: UITextField!
     
     //Global variables used for string concatination to get final API URL
-    let API_Key = "083b6b33f7ed129a3b4a65fa79e96d41";
-    let API_ID = "84f4dee2";
+    let API_Key = "";
+    let API_ID = "";
     var finalURL = ""
     let baseURL1 = "https://api.edamam.com/api/nutrition-data?"
     //Store the food user enters in an array
