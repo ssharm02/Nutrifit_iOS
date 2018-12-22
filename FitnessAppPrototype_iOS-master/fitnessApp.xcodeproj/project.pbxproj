@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0DDB2B205E0DFF00E4A50D /* bg04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE0DDB2A205E0DFE00E4A50D /* bg04.jpeg */; };
+		AE0DDB2F205E100100E4A50D /* logo02.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0DDB2E205E100100E4A50D /* logo02.png */; };
+		AE0DDB31205E122200E4A50D /* launchbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0DDB30205E122100E4A50D /* launchbg.jpg */; };
+		AE3F8E51207800330068B487 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F8E50207800330068B487 /* Customer.swift */; };
+		AE3F8E53207864990068B487 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F8E52207864990068B487 /* SiteCell.swift */; };
+		AE622D47205E155D00E4879F /* signupbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE622D46205E155D00E4879F /* signupbg.jpg */; };
+		AE622D49205E176700E4879F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE622D48205E176700E4879F /* SignupViewController.swift */; };
+		AE622D4C205E220E00E4879F /* icon_pw.png in Resources */ = {isa = PBXBuildFile; fileRef = AE622D4A205E220D00E4879F /* icon_pw.png */; };
+		AE622D4D205E220E00E4879F /* icon_user.png in Resources */ = {isa = PBXBuildFile; fileRef = AE622D4B205E220D00E4879F /* icon_user.png */; };
+		AEA36424206F0D3300F7B5D2 /* trainer01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA36422206F0D3200F7B5D2 /* trainer01.jpg */; };
+		AEA36425206F0D3300F7B5D2 /* trainer02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA36423206F0D3200F7B5D2 /* trainer02.jpeg */; };
+		AEA9C23A205E44D900103A7A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C239205E44D900103A7A /* DashboardViewController.swift */; };
+		AEA9C23C205E463000103A7A /* dashboardbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA9C23B205E462F00103A7A /* dashboardbg.jpg */; };
+		AEA9C23E205E485C00103A7A /* icon_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9C23D205E485B00103A7A /* icon_menu.png */; };
+		AEA9C240205E486A00103A7A /* icon_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9C23F205E486900103A7A /* icon_settings.png */; };
+		AEA9C242205E50AC00103A7A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C241205E50AC00103A7A /* CollectionViewCell.swift */; };
+		AEA9C246205E5BFE00103A7A /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C245205E5BFE00103A7A /* ResetViewController.swift */; };
+		AEA9C251205F0CB700103A7A /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C24A205F0CB700103A7A /* BEMAnimationManager.m */; };
+		AEA9C252205F0CB700103A7A /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C24B205F0CB700103A7A /* BEMPathManager.m */; };
+		AEA9C253205F0CB700103A7A /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C24C205F0CB700103A7A /* BEMCheckBoxGroup.m */; };
+		AEA9C254205F0CB700103A7A /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C24E205F0CB700103A7A /* BEMCheckBox.m */; };
+		AEA9C257205F11C000103A7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9C256205F11C000103A7A /* SearchViewController.swift */; };
+		AEDA3A57205DD7E400CD17B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDA3A56205DD7E400CD17B8 /* AppDelegate.swift */; };
+		AEDA3A59205DD7E400CD17B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDA3A58205DD7E400CD17B8 /* ViewController.swift */; };
+		AEDA3A5C205DD7E400CD17B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDA3A5A205DD7E400CD17B8 /* Main.storyboard */; };
+		AEDA3A5E205DD7E400CD17B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDA3A5D205DD7E400CD17B8 /* Assets.xcassets */; };
+		AEDA3A61205DD7E400CD17B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDA3A5F205DD7E400CD17B8 /* LaunchScreen.storyboard */; };
+		AEDA3A7D205DF1AA00CD17B8 /* bg07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEDA3A7C205DF1AA00CD17B8 /* bg07.jpeg */; };
+		AEDA3A81205DF48600CD17B8 /* GoodVibes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEDA3A80205DF48600CD17B8 /* GoodVibes.ttf */; };
+		AEDB55C8206F1B8E00100465 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB55C7206F1B8E00100465 /* ProgressViewController.swift */; };
+		AEDB55CA206F1FE700100465 /* navIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDB55C9206F1FE600100465 /* navIcon.png */; };
+		AEDB55CC206F20F700100465 /* navIcon02.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDB55CB206F20F600100465 /* navIcon02.png */; };
+		AEDB55D0206F228100100465 /* icon_meal.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDB55CF206F228000100465 /* icon_meal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE3F8E4F2077FBE70068B487 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE0DDB2A205E0DFE00E4A50D /* bg04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg04.jpeg; sourceTree = "<group>"; };
+		AE0DDB2E205E100100E4A50D /* logo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo02.png; sourceTree = "<group>"; };
+		AE0DDB30205E122100E4A50D /* launchbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchbg.jpg; sourceTree = "<group>"; };
+		AE3F8E50207800330068B487 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		AE3F8E52207864990068B487 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		AE622D46205E155D00E4879F /* signupbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signupbg.jpg; sourceTree = "<group>"; };
+		AE622D48205E176700E4879F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		AE622D4A205E220D00E4879F /* icon_pw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pw.png; sourceTree = "<group>"; };
+		AE622D4B205E220D00E4879F /* icon_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_user.png; sourceTree = "<group>"; };
+		AEA36422206F0D3200F7B5D2 /* trainer01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trainer01.jpg; sourceTree = "<group>"; };
+		AEA36423206F0D3200F7B5D2 /* trainer02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trainer02.jpeg; sourceTree = "<group>"; };
+		AEA9C239205E44D900103A7A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		AEA9C23B205E462F00103A7A /* dashboardbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dashboardbg.jpg; sourceTree = "<group>"; };
+		AEA9C23D205E485B00103A7A /* icon_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_menu.png; sourceTree = "<group>"; };
+		AEA9C23F205E486900103A7A /* icon_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_settings.png; sourceTree = "<group>"; };
+		AEA9C241205E50AC00103A7A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = fitnessApp/Classes/CollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		AEA9C245205E5BFE00103A7A /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		AEA9C249205F0CB700103A7A /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		AEA9C24A205F0CB700103A7A /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		AEA9C24B205F0CB700103A7A /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		AEA9C24C205F0CB700103A7A /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		AEA9C24D205F0CB700103A7A /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		AEA9C24E205F0CB700103A7A /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		AEA9C24F205F0CB700103A7A /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		AEA9C250205F0CB700103A7A /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		AEA9C255205F0D8000103A7A /* CheckBoxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxHeader.h; sourceTree = "<group>"; };
+		AEA9C256205F11C000103A7A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AEDA3A53205DD7E400CD17B8 /* fitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDA3A56205DD7E400CD17B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEDA3A58205DD7E400CD17B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEDA3A5B205DD7E400CD17B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEDA3A5D205DD7E400CD17B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEDA3A60205DD7E400CD17B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEDA3A62205DD7E400CD17B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDA3A7C205DF1AA00CD17B8 /* bg07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg07.jpeg; sourceTree = "<group>"; };
+		AEDA3A80205DF48600CD17B8 /* GoodVibes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoodVibes.ttf; sourceTree = "<group>"; };
+		AEDB55C7206F1B8E00100465 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		AEDB55C9206F1FE600100465 /* navIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navIcon.png; sourceTree = "<group>"; };
+		AEDB55CB206F20F600100465 /* navIcon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navIcon02.png; sourceTree = "<group>"; };
+		AEDB55CF206F228000100465 /* icon_meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_meal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEDA3A50205DD7E400CD17B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3F8E492077FBD80068B487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA9C247205F0C7F00103A7A /* Checkboxes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9C248205F0CB700103A7A /* Classes */,
+			);
+			path = Checkboxes;
+			sourceTree = "<group>";
+		};
+		AEA9C248205F0CB700103A7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9C249205F0CB700103A7A /* BEMCheckBox.h */,
+				AEA9C24A205F0CB700103A7A /* BEMAnimationManager.m */,
+				AEA9C24B205F0CB700103A7A /* BEMPathManager.m */,
+				AEA9C24C205F0CB700103A7A /* BEMCheckBoxGroup.m */,
+				AEA9C24D205F0CB700103A7A /* BEMAnimationManager.h */,
+				AEA9C24E205F0CB700103A7A /* BEMCheckBox.m */,
+				AEA9C24F205F0CB700103A7A /* BEMPathManager.h */,
+				AEA9C250205F0CB700103A7A /* BEMCheckBoxGroup.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEDA3A4A205DD7E400CD17B8 = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A55205DD7E400CD17B8 /* fitnessApp */,
+				AEDA3A54205DD7E400CD17B8 /* Products */,
+				AE3F8E492077FBD80068B487 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDA3A54205DD7E400CD17B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A53205DD7E400CD17B8 /* fitnessApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDA3A55205DD7E400CD17B8 /* fitnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A7F205DF44E00CD17B8 /* Fonts */,
+				AEDA3A6B205DD84100CD17B8 /* Storyboards */,
+				AEDA3A6A205DD83300CD17B8 /* Classes */,
+				AEDA3A69205DD82200CD17B8 /* View Controllers */,
+				AEDA3A68205DD80300CD17B8 /* Images */,
+				AEDA3A5D205DD7E400CD17B8 /* Assets.xcassets */,
+				AEDA3A62205DD7E400CD17B8 /* Info.plist */,
+			);
+			path = fitnessApp;
+			sourceTree = "<group>";
+		};
+		AEDA3A68205DD80300CD17B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEDB55CF206F228000100465 /* icon_meal.png */,
+				AEDB55CB206F20F600100465 /* navIcon02.png */,
+				AEDB55C9206F1FE600100465 /* navIcon.png */,
+				AEA36422206F0D3200F7B5D2 /* trainer01.jpg */,
+				AEA36423206F0D3200F7B5D2 /* trainer02.jpeg */,
+				AEA9C23F205E486900103A7A /* icon_settings.png */,
+				AEA9C23D205E485B00103A7A /* icon_menu.png */,
+				AEA9C23B205E462F00103A7A /* dashboardbg.jpg */,
+				AE622D4A205E220D00E4879F /* icon_pw.png */,
+				AE622D4B205E220D00E4879F /* icon_user.png */,
+				AE622D46205E155D00E4879F /* signupbg.jpg */,
+				AE0DDB30205E122100E4A50D /* launchbg.jpg */,
+				AE0DDB2E205E100100E4A50D /* logo02.png */,
+				AE0DDB2A205E0DFE00E4A50D /* bg04.jpeg */,
+				AEDA3A7C205DF1AA00CD17B8 /* bg07.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEDA3A69205DD82200CD17B8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A58205DD7E400CD17B8 /* ViewController.swift */,
+				AE622D48205E176700E4879F /* SignupViewController.swift */,
+				AEA9C239205E44D900103A7A /* DashboardViewController.swift */,
+				AEA9C245205E5BFE00103A7A /* ResetViewController.swift */,
+				AEA9C256205F11C000103A7A /* SearchViewController.swift */,
+				AEDB55C7206F1B8E00100465 /* ProgressViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AEDA3A6A205DD83300CD17B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9C247205F0C7F00103A7A /* Checkboxes */,
+				AEDA3A56205DD7E400CD17B8 /* AppDelegate.swift */,
+				AEA9C255205F0D8000103A7A /* CheckBoxHeader.h */,
+				AEA9C241205E50AC00103A7A /* CollectionViewCell.swift */,
+				AE3F8E50207800330068B487 /* Customer.swift */,
+				AE3F8E52207864990068B487 /* SiteCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEDA3A6B205DD84100CD17B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A5A205DD7E400CD17B8 /* Main.storyboard */,
+				AEDA3A5F205DD7E400CD17B8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AEDA3A7F205DF44E00CD17B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AEDA3A80205DF48600CD17B8 /* GoodVibes.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEDA3A52205DD7E400CD17B8 /* fitnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDA3A65205DD7E400CD17B8 /* Build configuration list for PBXNativeTarget "fitnessApp" */;
+			buildPhases = (
+				AEDA3A4F205DD7E400CD17B8 /* Sources */,
+				AEDA3A50205DD7E400CD17B8 /* Frameworks */,
+				AEDA3A51205DD7E400CD17B8 /* Resources */,
+				AE3F8E4F2077FBE70068B487 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitnessApp;
+			productName = fitnessApp;
+			productReference = AEDA3A53205DD7E400CD17B8 /* fitnessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDA3A4B205DD7E400CD17B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AEDA3A52205DD7E400CD17B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEDA3A4E205DD7E400CD17B8 /* Build configuration list for PBXProject "fitnessApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEDA3A4A205DD7E400CD17B8;
+			productRefGroup = AEDA3A54205DD7E400CD17B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEDA3A52205DD7E400CD17B8 /* fitnessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEDA3A51205DD7E400CD17B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDB55CA206F1FE700100465 /* navIcon.png in Resources */,
+				AE622D47205E155D00E4879F /* signupbg.jpg in Resources */,
+				AE622D4C205E220E00E4879F /* icon_pw.png in Resources */,
+				AE0DDB2F205E100100E4A50D /* logo02.png in Resources */,
+				AE0DDB2B205E0DFF00E4A50D /* bg04.jpeg in Resources */,
+				AEDA3A61205DD7E400CD17B8 /* LaunchScreen.storyboard in Resources */,
+				AEA9C240205E486A00103A7A /* icon_settings.png in Resources */,
+				AEDA3A5E205DD7E400CD17B8 /* Assets.xcassets in Resources */,
+				AEDA3A5C205DD7E400CD17B8 /* Main.storyboard in Resources */,
+				AEA9C23C205E463000103A7A /* dashboardbg.jpg in Resources */,
+				AEDB55CC206F20F700100465 /* navIcon02.png in Resources */,
+				AEA36425206F0D3300F7B5D2 /* trainer02.jpeg in Resources */,
+				AEDB55D0206F228100100465 /* icon_meal.png in Resources */,
+				AE0DDB31205E122200E4A50D /* launchbg.jpg in Resources */,
+				AEDA3A7D205DF1AA00CD17B8 /* bg07.jpeg in Resources */,
+				AEDA3A81205DF48600CD17B8 /* GoodVibes.ttf in Resources */,
+				AE622D4D205E220E00E4879F /* icon_user.png in Resources */,
+				AEA9C23E205E485C00103A7A /* icon_menu.png in Resources */,
+				AEA36424206F0D3300F7B5D2 /* trainer01.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDA3A4F205DD7E400CD17B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA9C242205E50AC00103A7A /* CollectionViewCell.swift in Sources */,
+				AEA9C257205F11C000103A7A /* SearchViewController.swift in Sources */,
+				AE3F8E53207864990068B487 /* SiteCell.swift in Sources */,
+				AE622D49205E176700E4879F /* SignupViewController.swift in Sources */,
+				AEDB55C8206F1B8E00100465 /* ProgressViewController.swift in Sources */,
+				AEDA3A59205DD7E400CD17B8 /* ViewController.swift in Sources */,
+				AEA9C251205F0CB700103A7A /* BEMAnimationManager.m in Sources */,
+				AEDA3A57205DD7E400CD17B8 /* AppDelegate.swift in Sources */,
+				AEA9C246205E5BFE00103A7A /* ResetViewController.swift in Sources */,
+				AEA9C253205F0CB700103A7A /* BEMCheckBoxGroup.m in Sources */,
+				AE3F8E51207800330068B487 /* Customer.swift in Sources */,
+				AEA9C23A205E44D900103A7A /* DashboardViewController.swift in Sources */,
+				AEA9C252205F0CB700103A7A /* BEMPathManager.m in Sources */,
+				AEA9C254205F0CB700103A7A /* BEMCheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEDA3A5A205DD7E400CD17B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDA3A5B205DD7E400CD17B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEDA3A5F205DD7E400CD17B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDA3A60205DD7E400CD17B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEDA3A63205DD7E400CD17B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEDA3A64205DD7E400CD17B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEDA3A66205DD7E400CD17B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fitnessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog31632.fitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = fitnessApp/Classes/CheckBoxHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEDA3A67205DD7E400CD17B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fitnessApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog31632.fitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = fitnessApp/Classes/CheckBoxHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEDA3A4E205DD7E400CD17B8 /* Build configuration list for PBXProject "fitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDA3A63205DD7E400CD17B8 /* Debug */,
+				AEDA3A64205DD7E400CD17B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDA3A65205DD7E400CD17B8 /* Build configuration list for PBXNativeTarget "fitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDA3A66205DD7E400CD17B8 /* Debug */,
+				AEDA3A67205DD7E400CD17B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEDA3A4B205DD7E400CD17B8 /* Project object */;
+}
